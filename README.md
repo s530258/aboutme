@@ -2,8 +2,8 @@
 
 ## Repository links
 
-- https://github.com/s530258/aboutme/tree/master
-- https://s530258.github.io/aboutme/
+- [Source](https://github.com/s530258/aboutme/tree/master "Source page")
+- [Pages](https://s530258.github.io/aboutme/ "Github pages")
 
 ## About
 
