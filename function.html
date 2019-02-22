@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Square and Add</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="./css/runyon.css" rel="stylesheet">
+
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">James Runyon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="function.html">Function</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="test.html">Test</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<body>
+  <main class="container-fluid">
+      <h1>Square and Add</h1>
+
+    <p>Input a number to be squared and added
+      <input id="firstNumber" type="number" value="0">
+    </p>
+
+    <p>Input a second number to be squared and added
+      <input id="secondNumber" type="number" value="0">
+    </p>
+
+    <button id="clicker" class="btn btn-primary">Click here</button>
+
+    <p id="result"></p>
+
+    <script>localStorage.setItem('firstNumber', fn)
+        localStorage.setItem('secondNumber', fn)</script>
+
+    
+
+  </main>
+
+  <script>
+
+    function squareAndAdd(x, y) {
+      return (x * x) + (y * y)
+    }
+
+    document.getElementById('clicker').addEventListener('click', function () {
+      const i = parseInt(document.getElementById('firstNumber').value)
+      const j = parseInt(document.getElementById('secondNumber').value)
+      const ans = 'The result of squaring each number and adding them is ' + squareAndAdd(i, j) + '.'
+      document.getElementById('result').innerHTML = ans
+    })
+
+  </script>
+
+</body>
+
+</html>

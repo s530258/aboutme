@@ -15,3 +15,5 @@ This repository is used as practice for early web development.
 ## Contributors
 My name is James Runyon, and I am a senior computer science student at NWMSU.
 ![Picture](https://www.taketours.com/images/destination/USA%20Grand%20Canyon%20South%20Rim.jpg "Grand Canyon")
+
+## References - https://code.tutsplus.com/tutorials/how-to-test-your-javascript-code-with-qunit--net-9077, https://www.sitepoint.com/getting-started-qunit/, code from the in class app challenge assignment
